@@ -93,7 +93,7 @@ $sql_result = mysqli_query ($conn, $sql) or die ('request "Could not execute SQL
 	<?php include("header.php") ?>
 	<div id="loginarea">
 	<form id="login" action="login.php" onsubmit="return validate()" method="post" name="login">
-	<div id="logintext">Login to Indian Railways!</div><br/><br/>
+	<div id="logintext">welcome</div><br/><br/>
 	<table>
 		<tr><td><div class="data">Enter E-Mail ID:</div></td><td><input type="text" id="email" size="30" maxlength="30" name="email"/></td></tr>
 		<tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr><tr></tr>
