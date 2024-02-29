@@ -62,7 +62,7 @@ if(mysqli_query($conn, $sql))
 <?php
 include("header.php"); ?>
 <center>
-	<div id="pnr">Check your PNR<br/><br/>
+	<div id="pnr">Check PNR<br/><br/>
 	<form method="post" name="pnrstatus" action="pnrstatus.php">
 	<div id="pnrtext"><input type="text" name="pnr" size="30" maxlength="10" placeholder="Enter PNR here"></div>
 	<br/><br/>
